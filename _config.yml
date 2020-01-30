@@ -1,0 +1,5 @@
+description: Blog Pribadi Ook Rahmawan
+markdown: rdiscount
+permalink: /:title
+pygments: true
+title: Ook Rahmawan
