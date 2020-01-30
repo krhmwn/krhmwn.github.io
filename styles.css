@@ -1,18 +1,18 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}@font-face{font-family:'IstokWebRegular';src:url('/font/IstokWeb-Regular-webfont.eot');src:url('/font/IstokWeb-Regular-webfont.eot?#iefix')format('embedded-opentype'),url('/font/IstokWeb-Regular-webfont.woff')format('woff'),url('/font/IstokWeb-Regular-webfont.ttf') format('truetype'),url('/font/IstokWeb-Regular-webfont.svg#IstokWebRegular')format('svg');font-weight:normal;font-style:normal}
 
 body {
-background:#FFE;
+background:f8f8f8;
 padding:4em 2em;
 font-family:'IstokWebRegular',Arial,sans-serif;
-color:#364545;
-border-top:0.25em solid #9C5959;
+color:#444444;
+border-top:0.25em solid #e51c23;
 font-size:1.175em;
 font-weight:normal;
 line-height:2em
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-weight:normal
+font-weight:bold;
 }
 
 
@@ -24,7 +24,7 @@ h2 {
 font-size:1.5em;
 }
 
-a,a:link,a:visited{border-bottom:thin solid #9C5959;color:#9C5959;text-decoration:none}
+a,a:link,a:visited{border-bottom:thin solid #e51c23;color:#e51c23;text-decoration:none}
 
 a:hover,a:active{text-decoration:none}
 
@@ -94,7 +94,7 @@ footer {
   }
   
   header {
-    padding:0;
+    padding: 0 0 10% 0;
   }
   
   
@@ -104,13 +104,15 @@ footer {
   body {
     padding:15px;
   }
-  
+   header {
+    padding: 0 0 15% 0;
+  }
 }
 
 @media print {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:#444;
+    color:#444444;
   }
 }
