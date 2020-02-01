@@ -94,7 +94,7 @@ footer {
   }
   
   header {
-    padding: 0 10%;
+    padding: 10% 0;
   }
   
   
@@ -105,7 +105,7 @@ footer {
     padding:15px;
   }
    header {
-    padding: 0 15%;
+    padding: 15% 0;
   }
 }
 
