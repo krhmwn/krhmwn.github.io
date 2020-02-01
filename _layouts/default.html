@@ -15,11 +15,12 @@
 <body>
 <div class="wrapper">
 <header>
-<h1><a href="/">{{ site.title }}</a></h1>
+<h1><a href="/">{{ site.name }}</a></h1>
+<small>{{ site.title }}</small>
 </header>
 <section id="main">{{ content }}</section>
 <footer>
-<small>&copy; {{ site.time | date: "%Y" }} ookrahmawan@mail.ru</small>
+<small>&copy; {{ site.time | date: "%Y" }} <a href="/">{{ site.title }}</a></small>
 </footer>
 </div>
 </body>

@@ -4,7 +4,7 @@ layout: default
 
 <article>
 <h1>{{page.title}}</h1>
-<small>{{ page.date | date: "%d %m %Y"}}</small>
+<small>{{ page.date | date: "%d-%m-%Y"}}</small>
 {{content}}
 </article>
-<nav id="pagination"><nav class="current">{{ paginator.page }} / {{ paginator.total_pages }}</nav>{% if paginator.previous_page %}{% if paginator.previous_page == 1 %}{% assign previous_link = '/' %}{% else %}{% capture previous_link %}../page{{ paginator.previous_page }}{% endcapture %}{% endif %}<nav class="previous"><a title="Newer" href="{{ previous_link }}">&laquo; Lebih Baru</a></nav>{% endif %}{% if paginator.next_page %}<nav class="next"><a title="Older" href="../page{{ paginator.next_page }}">Lebih Awal &raquo;</a></nav>{% endif %}</nav>
+
