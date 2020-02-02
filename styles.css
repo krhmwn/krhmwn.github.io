@@ -61,6 +61,10 @@ small {
   font-size:0.9em;
 }
 
+navigation {
+	display:block;
+}
+
 footer {
   width:270px;
   float:left;
