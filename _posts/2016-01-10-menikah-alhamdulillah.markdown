@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Menikah, Alhamdulillah"
+title: "Menikah, alhamdulillah"
 date: 2016-01-10 10:00
 comments: false
 categories: post
