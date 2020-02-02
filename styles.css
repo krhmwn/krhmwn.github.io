@@ -62,7 +62,7 @@ small {
 }
 
 navigation {
-	display:block;
+	display:inline-grid;
 }
 
 footer {
