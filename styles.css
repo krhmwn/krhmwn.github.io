@@ -24,6 +24,11 @@ h2 {
 font-size:1.5em;
 }
 
+h3 {
+font-size:1.5em;
+margin: 3% 0 0 0;
+}
+
 a,a:link,a:visited{color:#e51c23;text-decoration:none}
 
 a:hover,a:active{text-decoration:none}
