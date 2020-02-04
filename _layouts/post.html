@@ -11,5 +11,5 @@ layout: default
 <small>{{ page.date | date: "%d-%m-%Y"}}</small>
 {{content}}
 </article>
-<nav class="navigation">{% if page.previous.url %}<a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; {{ page.previous.title }}</a>{% endif %}{% if page.next.url %}<a href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }} &raquo;</a>{% endif %}</nav>
+<nav class="navigation"><ul><li>Sebelumnya: {% if page.previous.url %}<a href="{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a>{% endif %}</li><li>Selanjutnya: {% if page.next.url %}<a href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a>{% endif %}</li></ul></nav>
 
