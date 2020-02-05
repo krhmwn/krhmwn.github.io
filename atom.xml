@@ -5,7 +5,7 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>KRHMWN</title>
- <link href="/atom.xml" rel="self"/>
+ <link href="https://krhmwn.github.io/atom.xml" rel="self"/>
  <link href="https://krhmwn.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>https://krhmwn.github.io/</id>
@@ -16,7 +16,7 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="https://krhmwn.github.io/{{ post.url }}"/>
+   <link href="https://krhmwn.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>https://krhmwn.github.io{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
