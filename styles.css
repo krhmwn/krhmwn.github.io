@@ -64,6 +64,7 @@ section {
 }
 small {
   font-size:0.9em;
+  display: block;
 }
 
 nav {
