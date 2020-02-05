@@ -4,21 +4,21 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Danish Khan</title>
- <link href="http://danishkhan.org/atom.xml" rel="self"/>
- <link href="http://danishkhan.org/"/>
+ <title>KRHMWN</title>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://danishkhan.org</id>
+ <id>https://krhmwn.github.io/</id>
  <author>
-   <name>Danish Khan</name>
+   <name>Ook Rahmawan</name>
  </author>
  
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://danishkhan.org{{ post.url }}"/>
+   <link href="{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://danishkhan.org{{ post.id }}</id>
+   <id>https://krhmwn.github.io/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
