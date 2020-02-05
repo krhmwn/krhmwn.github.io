@@ -1,1 +1,1 @@
-The license I'm using is a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>. In other words you are free to share and remix as long as you give proper attribution, don't make money out of it, and if you share your derivative work, do it with a similar license.
+BLOG - https://krhmwn.github.io/
