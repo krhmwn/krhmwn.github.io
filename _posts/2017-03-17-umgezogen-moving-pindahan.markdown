@@ -8,4 +8,4 @@ link: https://goo.gl/maps/KAjbBViheXLUhkXE6
 ---
 
 Alhamdulillah, semoga barokah. Aaamiiin.
-![Pindahan](/img/greentown3.jpg)
+![Pindahan](/img/greentown3.0.jpg)
