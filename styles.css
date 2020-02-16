@@ -11,5 +11,5 @@ small{font-size:.9em;display:block}
 nav{display:inline-grid}
 footer{width:25%;float:left;position:fixed;bottom:50px}
 @media print,screen and (max-width:860px){div.wrapper{width:auto;margin:0}header,section,footer{float:none;position:static;width:100%}header{padding-right:320px}}
-@media print,screen and (max-width:720px){body{word-wrap:break-word}header,section{padding:10% 0}}
-@media print,screen and (max-width:480px){body{padding:20%}header,section{padding:15% 0}}
+@media print,screen and (max-width:720px){body{word-wrap:break-word}header,section{padding:7.5% 0}}
+@media print,screen and (max-width:480px){body{padding:10%}header,section{padding:5% 0}}
