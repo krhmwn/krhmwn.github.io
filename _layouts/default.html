@@ -11,9 +11,9 @@
 </head>
 <body>
 <div class="wrapper">
-<header><h1><a href="/">{{ site.name }}</a></h1><summary>{{ site.title }}</summary></header>
+<header><h1><a href="/">{{ site.name }}</a></h1><small>{{ site.title }}</small></header>
 <section id="main">{{ content }}</section>
-<footer><summary>&copy; 2016-{{ site.time | date: "%Y" }} <a href="/">{{ site.title }}</a></summary></footer>
+<footer><small>&copy; 2016-{{ site.time | date: "%Y" }} <a href="/">{{ site.title }}</a></small></footer>
 </div>
 </body>
 </html>
