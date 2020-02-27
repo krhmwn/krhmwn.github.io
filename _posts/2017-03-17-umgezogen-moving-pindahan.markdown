@@ -5,6 +5,7 @@ date: 2017-03-17 10:00
 comments: false
 categories: post
 link: https://goo.gl/maps/KAjbBViheXLUhkXE6
+description: Alhamdulillah, semoga barokah. Aaamiiin.
 ---
 
 Alhamdulillah, semoga barokah. Aaamiiin.
