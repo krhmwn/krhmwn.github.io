@@ -1,15 +1,104 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,section{display:block}ol,ul{list-style:none}
-@font-face{font-family:'IstokWebRegular';src:url(/font/IstokWeb-Regular-webfont.eot);src:url(/font/IstokWeb-Regular-webfont.eot?#iefix)format('embedded-opentype'),url(/font/IstokWeb-Regular-webfont.woff)format('woff'),url(/font/IstokWeb-Regular-webfont.ttf) format('truetype'),url(/font/IstokWeb-Regular-webfont.svg#IstokWebRegular)format('svg');font-weight:400;font-style:normal}
-body{background-color:#F5F1E1;padding:4em 2em;font-family:'IstokWebRegular',Arial,sans-serif;color:#444;border-top:.25em solid #9D2719;font-size:1.175em;font-weight:400;line-height:2em}
-h1,h2,h3,h4,h5,h6{font-weight:700}h1{font-size:1.75em}h2{font-size:1.5em}h3{font-size:1.5em;margin:3% 0 0 0}
-a,a:link,a:visited{color:#9D2719;text-decoration:none}a:hover,a:active{text-decoration:none}
-.wrapper{width:860px;margin:0 auto}
-img{max-width:100%}
-header{width:25%;float:left;position:fixed}
-section{width:65%;float:right;padding-bottom:50px}
-small{font-size:.9em;display:block}
-nav{display:inline-grid}
-footer{width:25%;float:left;position:fixed;bottom:50px}
-@media print,screen and (max-width:860px){div.wrapper{width:auto;margin:0}header,section,footer{float:none;position:static;width:100%}header{padding-right:320px}}
-@media print,screen and (max-width:720px){body{word-wrap:break-word}header,section{padding:7.5% 0}}
-@media print,screen and (max-width:480px){body{padding:10%}header,section{padding:5% 0}}
+* {
+margin:0;
+padding:0
+}
+
+header,section,footer,aside,nav,article,figure {
+display:block
+}
+
+@import url("https://fonts.googleapis.com/css?family=Noto+Serifo:300,400,700");
+
+body {
+font-family:"Noto Serif",Georgia,serif;
+font-size:1em;
+color:#444;
+padding-top:20px;
+background-color:#fdfdfd;
+letter-spacing:.025em
+}
+
+a {
+color:#3B94D9;
+text-decoration:none
+}
+
+a:hover {
+text-decoration:underline
+}
+
+section {
+width:768px;
+margin:0 auto;
+text-align:center
+}
+
+.name {
+display:block;
+padding:75px
+}
+
+nav {
+margin:0 0 30px
+}
+
+nav a {
+padding:0 10px;
+font-size:90%
+}
+
+header {
+margin:10px 0;
+padding:15px;
+border-top:1px solid #F4F6F7
+}
+
+h1 {
+font-weight:400;
+font-size:1.75em
+}
+
+h2 {
+font-weight:200;
+font-size:1.75em
+}
+
+time {
+font-size:.9em;
+opacity:.5
+}
+
+article p {
+padding:10px 0 30px;
+line-height:1.75em
+}
+
+article img {
+max-width:100%;
+display:block;
+margin:0 auto
+}
+
+.post {
+padding:10px 0 30px;
+line-height:1.75em;
+text-align:justify
+}
+
+footer {
+padding:65px 0;
+border-top:1px solid #F4F6F7;
+font-size:90%
+}
+
+.group:after {
+content:"";
+display:table;
+clear:both
+}
+
+@media (max-width : 768px) {
+section {
+width:90%
+}
+}
