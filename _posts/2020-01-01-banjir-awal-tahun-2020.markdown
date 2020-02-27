@@ -4,7 +4,7 @@ title: "Banjir, awal tahun 2020"
 date: 2020-01-01 00:00
 comments: false
 categories: post
-description: Hujan, merupakan kejadian alam yang seringkali ditunggu-tunggu kedatangannya apabila berbulan-bulan sebelumnya kita kesulitan air & kekeringan. Namun, tidak jarang hujan disambut dengan kekhawatiran & penuh antisipasi akan datangnya banjir atau bencana alam lainnya...
+description: Hujan, merupakan kejadian alam yang seringkali ditunggu-tunggu kedatangannya apabila berbulan-bulan sebelumnya kita kesulitan air & kekeringan. Namun, tidak jarang hujan disambut dengan kekhawatiran & penuh antisipasi akan datangnya banjir atau bencana alam lainnya.
 ---
 
 Hujan, merupakan kejadian alam yang seringkali ditunggu-tunggu kedatangannya apabila berbulan-bulan sebelumnya kita kesulitan air & kekeringan. Namun, tidak jarang hujan disambut dengan kekhawatiran & penuh antisipasi akan datangnya banjir atau bencana alam lainnya.
