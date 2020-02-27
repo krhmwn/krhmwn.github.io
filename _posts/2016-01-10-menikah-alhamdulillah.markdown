@@ -7,4 +7,5 @@ categories: post
 description: Alhamdulillah, semoga barokah. Aaamiiin. 
 ---
 
+
 ![Alhamdulillah](/img/wedding.jpg)
