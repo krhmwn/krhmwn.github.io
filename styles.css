@@ -70,7 +70,8 @@ opacity:.5
 
 article p {
 padding:10px 0 30px;
-line-height:1.75em
+line-height:1.75em;
+text-align:justify
 }
 
 article img {
@@ -82,7 +83,6 @@ margin:0 auto
 .post {
 padding:10px 0 30px;
 line-height:1.75em;
-text-align:justify
 }
 
 footer {
