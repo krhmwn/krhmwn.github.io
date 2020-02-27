@@ -10,10 +10,11 @@
 <!--[if IE]><script type="text/javascript" src="/html5.js"></script><![endif]-->
 </head>
 <body>
-<div class="wrapper">
-<header><h1><a href="/">{{ site.name }}</a></h1><small>{{ site.title }}</small></header>
-<section id="main">{{ content }}</section>
-<footer><small>&copy; 2016-{{ site.time | date: "%Y" }} <a href="/">{{ site.title }}</a></small></footer>
-</div>
+<section>
+<nav><a href="/">Beranda</a><a href="mailto:ookrahmawan@mail.ru">Kontak</a></nav>
+<header><span class="name"><h1>{{ site.name }}</h1></span></header>
+<article>{{ content }}</article>
+<footer>&copy; 2016-{{ site.time | date: "%Y" }} <a href="/">{{ site.title }}</a></footer>
+</section>
 </body>
 </html>
