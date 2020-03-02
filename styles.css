@@ -71,11 +71,11 @@ opacity:.5
 article p {
 padding:10px 0 40px;
 line-height:1.75em;
-text-align:justify
+text-align:left
 }
 
 article img {
-max-width:100%;
+max-width:auto;
 display:block;
 margin:0 auto
 }
