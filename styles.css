@@ -7,7 +7,7 @@ header,section,footer,aside,nav,article,figure {
 display:block
 }
 
-@import url("https://fonts.googleapis.com/css?family=Noto+Serifo:300,400,700");
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 
 body {
 font-family:"Noto Serif",Georgia,serif;
