@@ -3,9 +3,8 @@ layout: default
 title: Blog
 ---
 
-{% for post in site.posts %}
-<header>
+{% for post in site.posts %}<header>
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d-%m-%Y" }}</time>
-</header><p class="post">{{ post.description }}</p>
-{% endfor %}
+</header>
+<p class="post">{{ post.description }}</p>{% endfor %}
