@@ -56,9 +56,35 @@ font-weight:400;
 font-size:2.5em
 }
 
-h2 {
-font-weight:200;
-font-size:1.5em
+h1 {
+  position: relative; /* This is important */
+  margin: 1.5em 0 .9em;
+  font-size: 1.5em;
+  line-height: 1.2;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden; /* This is important */
+}
+
+/* Create two pseudo-elements */
+h1:before, h1:after {
+  position: absolute;
+  top: 50%;
+  content: '';
+  width: 50%;
+  height: 2px;
+  display: inline-block;
+  background: #303030;
+}
+
+/* Adjust the "14px" value to change the text's left padding */
+h1:before {
+  margin-left: calc(-50% - 14px);
+}
+
+/* Adjust the "14px" value to change the text's right padding */
+h1:after {
+  margin-left: 14px;
 }
 
 time {
