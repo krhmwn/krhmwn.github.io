@@ -10,10 +10,28 @@ display:block
 body {
 font-family:"Noto Serif",Georgia,serif;
 font-size:1.125em;
-color:#444;
-padding-top:20px;
-background-color:#fdfdfd;
-letter-spacing:.025em
+line-height:1.75em;
+color:#333;
+letter-spacing:.025em;
+background:#fdfdfd
+}
+
+h1,h2 {
+margin-bottom:.5em
+}
+
+h1 {
+font-size:2.25em;
+line-height:1.1em
+}
+
+h2 {
+font-size:1.5em;
+line-height:1.2em
+}
+
+p {
+margin-bottom:.5em
 }
 
 a {
@@ -25,95 +43,26 @@ a:hover {
 text-decoration:underline
 }
 
-section {
-width:768px;
-margin:0 auto;
-text-align:center
+ul,ol {
+margin-bottom:.5em
 }
 
-.name {
-display:block;
-padding:75px 0 100px
+ul li ul,ul li ol,ol li ul,ol li ol {
+margin:0
 }
 
-nav {
-margin:0 0 30px
+li {
+margin:0 1em;
 }
 
-nav a {
-padding:0 10px;
-font-size:90%
-}
-
-header {
-margin:10px 0;
-padding:40px 0 0;
-border-top:1px solid #DCDCDC
-}
-
-h1 {
-font-weight:400;
-font-size:2.5em
-}
-
-h2 {
-  position: relative; /* This is important */
-  margin: 1.5em 0 .9em;
-  font-size: 1.5em;
-  line-height: 1.2;
-  font-weight: bold;
-  text-align: center;
-  overflow: hidden; /* This is important */
-}
-
-/* Create two pseudo-elements */
-h2:before, h1:after {
-  position: absolute;
-  top: 50%;
-  content: '';
-  width: 50%;
-  height: 2px;
-  display: inline-block;
-  background: #303030;
-}
-
-/* Adjust the "14px" value to change the text's left padding */
-h2:before {
-  margin-left: calc(-50% - 14px);
-}
-
-/* Adjust the "14px" value to change the text's right padding */
-h2:after {
-  margin-left: 14px;
-}
-
-time {
-font-size:95%;
-opacity:.5
-}
-
-article p {
-padding:10px 0 40px;
-line-height:1.75em;
-text-align:left
-}
-
-article img {
+img {
 max-width:100%;
-display:block;
-margin:0 auto
+height:auto;
+padding:1em 0
 }
 
-.post {
-padding:10px 0 40px;
-line-height:1.75em;
-text-align:center
-}
-
-footer {
-padding:65px 0;
-border-top:1px solid #DCDCDC;
-font-size:90%
+a img {
+border:none
 }
 
 .group:after {
@@ -122,11 +71,67 @@ display:table;
 clear:both
 }
 
-@media (max-width : 768px) {
-body {
-font-size:125%
+.container {
+width:50em;
+margin:0 auto;
+padding:0 5em;
+text-align:center
 }
-section {
-width:90%
+
+nav {
+padding:1.25em 0
+}
+
+nav li {
+display:inline;
+list-style:none
+}
+
+header {
+padding:5em 0;
+border-top:1px solid #DCDCDC;
+border-bottom:1px solid #DCDCDC
+}
+
+time {
+font-size:95%;
+opacity:.5
+}
+
+article {
+padding:3em 0;
+border-bottom:1px solid #DCDCDC
+}
+
+.post {
+text-align:left
+}
+
+footer {
+padding:3em 0;
+font-size:90%
+}
+
+@media all and (min-width: 48em) and (max-width: 62em) {
+body {
+font-size:93.75%
+}
+
+.container {
+width:80%;
+margin:0 4%;
+padding:3% 6%
+}
+}
+
+@media only screen and (max-width: 47.9999em) {
+body {
+font-size:87.5%
+}
+
+.container {
+width:84%;
+margin:0 3%;
+padding:5%
 }
 }
