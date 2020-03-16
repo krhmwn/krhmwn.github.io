@@ -99,6 +99,8 @@ opacity:.5
 }
 
 article {
+width: 80%;
+margin: 0 auto;
 padding:3em 0;
 border-bottom:1px solid #DCDCDC
 }
