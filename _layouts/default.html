@@ -11,11 +11,9 @@
 <!--[if lt IE 9]><script type="text/javascript" src="/html5.js"></script><![endif]-->
 </head>
 <body>
-<section>
-<nav><a href="/">Beranda</a><a href="mailto:ookrahmawan@mail.ru">Kontak</a></nav>
-<header class="name"><h1>{{ site.name }}</h1></header>
-<article>{{ content }}</article>
+<div class="container">
+{{ content }}
 <footer>&copy; 2016-{{ site.time | date: "%Y" }} <a href="/">{{ site.title }}</a></footer>
-</section>
+</div>
 </body>
 </html>
