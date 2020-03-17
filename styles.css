@@ -99,12 +99,17 @@ opacity:.5
 }
 
 article {
+border-top:1px solid #DCDCDC;
 width: 80%;
 margin: 0 auto;
 padding:3em 0;
 }
+article :first-child{
+border:none;
+}
 
 .post {
+border:none;
 text-align:left
 }
 
