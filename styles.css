@@ -111,7 +111,7 @@ border-top:1px solid #DCDCDC;
 
 .post {
 border:none;
-text-align:left
+text-align:left;
 &:first-child {
 &:first-letter {
 float: left;
