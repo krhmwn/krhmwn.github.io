@@ -133,7 +133,7 @@ font-size:90%
 
 @media all and (min-width: 48em) and (max-width: 62em) {
 body {
-font-size:93.75%
+font-size:115%
 }
 
 .container {
@@ -149,7 +149,7 @@ width: 100%;
 
 @media only screen and (max-width: 47.9999em) {
 body {
-font-size:87.5%
+font-size:125%
 }
 
 .container {
