@@ -114,7 +114,7 @@ border:none;
 text-align:left
 }
 
-.post p:first-child:first-letter {
+p:first-child:first-letter {
 float: left;
 font-size: 4em;
 margin: 10px 10px 0 0;
