@@ -8,9 +8,8 @@ title: Blog
 {% for post in site.posts limit:1 %}<article>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d-%m-%Y" }}</time>
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<p>{{ post.description }}</p></article>
-{% endfor %}
-{% for post in site.posts offset:1 limit:2 %}<article>
+<p>{{ post.description }}</p></article class="archive">
+{% endfor %}{% for post in site.posts offset:1 limit:2 %}<article>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d-%m-%Y" }}</time>
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 </article>
