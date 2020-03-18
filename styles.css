@@ -52,13 +52,13 @@ margin:0
 }
 
 li {
-margin:0 1em;
+margin:0 1em
 }
 
 img {
 width:100%;
 height:auto;
-object-fit: cover;
+object-fit:cover;
 padding:1em 0
 }
 
@@ -100,13 +100,13 @@ opacity:.5
 }
 
 article {
-width: 80%;
-margin: 0 auto;
-padding:3em 0;
+width:80%;
+margin:0 auto;
+padding:3em 0
 }
 
-.archive{
-border-top:1px solid #DCDCDC;
+.archive {
+border-top:1px solid #DCDCDC
 }
 
 .post {
@@ -114,13 +114,13 @@ border:none;
 text-align:left
 }
 
-.post>p:nth-of-type(1):first-letter{
-float: left;
-font-size: 3.5em;
-line-height: 80%;
-padding-top: 0.15em;
-padding-right: 0.1em;
-font-weight: 800
+.post>p:nth-of-type(1):first-letter {
+float:left;
+font-size:3.5em;
+line-height:80%;
+padding-top:.15em;
+padding-right:.1em;
+font-weight:800
 }
 
 footer {
@@ -139,17 +139,17 @@ width:80%;
 margin:0 4%;
 padding:3% 6%
 }
-  
+
 article {
-width: 100%;
+width:100%
 }
 
-.post>p:nth-of-type(1):first-letter{
-float: none;
-font-size:120%; 
-padding-top: 0; 
+.post>p:nth-of-type(1):first-letter {
+float:none;
+font-size:120%;
+padding-top:0;
 padding-right:0;
-font-weight: normal; 
+font-weight:400
 }
 }
 
@@ -163,15 +163,16 @@ width:84%;
 margin:0 3%;
 padding:5%
 }
+
 article {
-width: 100%;
+width:100%
 }
 
-.post>p:nth-of-type(1):first-letter{
-float: none;
-font-size:130%; 
-padding-top: 0; 
+.post>p:nth-of-type(1):first-letter {
+float:none;
+font-size:130%;
+padding-top:0;
 padding-right:0;
-font-weight: normal; 
+font-weight:400
 }
 }
