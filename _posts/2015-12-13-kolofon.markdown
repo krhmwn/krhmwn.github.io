@@ -9,6 +9,6 @@ description: Kolofon Situs
 
 Kolofon, merupakan kata serapan dari bahasa Inggris yaitu *Colophon* yang pengertiannya bisa dilihat di [Wikipedia](https://id.wikipedia.org/wiki/Kolofon).
 
-Halaman ini menguraikan tentang informasi situs web ini, situs ini dibuat menggunakan [Jekyll](https://jekyllrb.com/) yang merupakan generator situs statis dan hosting di [Github Pages](https://pages.github.com/). Tampilan antarmuka situs ini menggunakan pengembangan *CSS Templates* dari [W3schools](https://www.w3schools.com/css/css_templates.asp) dan menggunakan font dari Google Font dengan jenis huruf [Noto Serif](https://fonts.google.com/specimen/Noto+Serif). Situs ini menggunakan ~~subdomain github.io, domain web.id~~ subdomain us.to dari [afraid.org](https://freedns.afraid.org/).
+Halaman ini menguraikan tentang informasi situs web ini, situs ini dibuat menggunakan [Jekyll](https://jekyllrb.com/) yang merupakan generator situs statis dan hosting di [Github Pages](https://pages.github.com/). Tampilan antarmuka situs ini menggunakan pengembangan *CSS Templates* dari [W3schools](https://www.w3schools.com/css/css_templates.asp) dan menggunakan huruf dari *Google Font* dengan jenis huruf [Noto Serif](https://fonts.google.com/specimen/Noto+Serif). Situs ini menggunakan ~~subdomain github.io, domain web.id~~ subdomain us.to dari [afraid.org](https://freedns.afraid.org/).
 
 Update: 19 Maret 2020
