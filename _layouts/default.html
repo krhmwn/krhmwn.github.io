@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<title>{% if page.title %}{{ site.title }} - {% endif %}{{ page.title }}</title>
+<title>{% if page.title %}{{ site.title }} - {{ page.title }}{% endif %}{{ page.title }} - {{ site.title }}</title>
 <meta charset="utf-8" />
-<meta name="author" content="Ook Rahmawan" />
+<meta name="author" content="{{ site.name }}" />
 <meta name="description" content="{{ site.description }}" />
 <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ site.url }}/atom.xml" />
 <link rel="stylesheet" type="text/css" href="/styles.css" />
