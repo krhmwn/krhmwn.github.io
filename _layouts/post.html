@@ -9,8 +9,8 @@ layout: default
 {{content}}
 </article>
 <nav><ul><li>
-{% if page.previous.url %}<a href="{{ page.previous.url }}">&laquo; Sebelumnya</a></li>
+{% if page.previous.url %}<a href="{{ page.previous.url }}">&laquo; {{page.previous.title}}</a></li>
 {% endif %}
-<li>{% if page.next.url %}<a href="{{ page.next.url }}">Selanjutnya &raquo;</a></li></ul>
+<li>{% if page.next.url %}<a href="{{ page.next.url }}">{{page.next.title}} &raquo;</a></li></ul>
 {% endif %}
 </nav>
