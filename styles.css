@@ -94,6 +94,15 @@ border-top:1px solid #DCDCDC;
 border-bottom:1px solid #DCDCDC
 }
 
+header:before{
+position: absolute;
+content: '';
+left: 0;
+height: inherit;
+width: 100%;
+z-index: -1;
+}
+
 time {
 font-size:95%;
 opacity:.5
@@ -128,6 +137,15 @@ footer {
 border-top:1px solid #DCDCDC;
 padding:3em 0;
 font-size:90%
+}
+
+footer:before{
+position: absolute;
+content: '';
+left: 0;
+height: inherit;
+width: 100%;
+z-index: -1;
 }
 
 @media all and (min-width: 48em) and (max-width: 62em) {
