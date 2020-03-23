@@ -101,6 +101,8 @@ left: 0;
 height: inherit;
 width: 100%;
 z-index: -1;
+border-top:1px solid #DCDCDC;
+border-bottom:1px solid #DCDCDC
 }
 
 time {
@@ -146,6 +148,7 @@ left: 0;
 height: inherit;
 width: 100%;
 z-index: -1;
+border-top:1px solid #DCDCDC
 }
 
 @media all and (min-width: 48em) and (max-width: 62em) {
