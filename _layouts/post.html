@@ -7,5 +7,5 @@ layout: default
 <article class="post">
 <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%d-%m-%Y"}}</time>
 {{content}}
-<ol><li>{% if page.previous.url %}Sebelumnya: <a href="{{ page.previous.url }}">{{page.previous.title}}</a>{% endif %}</li><li>{% if page.next.url %}Selanjutnya: <a href="{{ page.next.url }}">{{page.next.title}}</a>{% endif %}</li></ol></article>
+<ul><li>{% if page.previous.url %}Sebelumnya: <a href="{{ page.previous.url }}">{{page.previous.title}}</a>{% endif %}</li><li>{% if page.next.url %}Selanjutnya: <a href="{{ page.next.url }}">{{page.next.title}}</a>{% endif %}</li></ul></article>
 <footer>&copy; 2015-{{ site.time | date: "%Y" }} <a href="/">{{ site.title }}</a></footer>
