@@ -7,6 +7,6 @@ layout: default
 <article class="post">
 <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%d-%m-%Y"}}</time>
 {{content}}
-<nav><ul><li>{% if page.previous.url %}<a href="{{ page.previous.url }}" alt="{{page.previous.title}}">&laquo; Sebelumnya</a>{% else %}<s>&laquo; Sebelumnya</s>{% endif %}</li><li>{% if page.next.url %}<a href="{{ page.next.url }}" alt="{{page.next.title}}">Selanjutnya &raquo;</a>{% else %}<s>Selanjutnya &raquo;</s>{% endif %}</li></ul></nav>
 </article>
+<nav><ul><li>{% if page.previous.url %}<a href="{{ page.previous.url }}" alt="{{page.previous.title}}">&laquo; Sebelumnya</a>{% else %}<s>&laquo; Sebelumnya</s>{% endif %}</li><li>{% if page.next.url %}<a href="{{ page.next.url }}" alt="{{page.next.title}}">Selanjutnya &raquo;</a>{% else %}<s>Selanjutnya &raquo;</s>{% endif %}</li></ul></nav>
 <footer>&copy; 2015-{{ site.time | date: "%Y" }} <a href="/">{{ site.title }}</a></footer>
