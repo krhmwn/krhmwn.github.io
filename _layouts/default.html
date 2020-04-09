@@ -7,6 +7,7 @@ layout: compress
 <head>
 <title>{% if page.title %}{{ page.title | escape | remove: ':clap:' | strip }} - {{site.name | escape }}{% else %}{{ site.name | escape }}{% endif %}</title>
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="{{ site.name | escape }}" />
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 160 }}{% else %}{{ site.description | strip }}{% endif %}" />
 <meta property="og:title" content="{% if page.title %}{{ page.title | escape | remove: ':clap:' | strip }} - {{site.name | escape }}{% else %}{{ site.name | escape }}{% endif %}" />
