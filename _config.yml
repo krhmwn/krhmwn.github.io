@@ -4,10 +4,10 @@ title: Ook Rahmawan
 name: Ook Rahmawan
 compress_html:
   clippings: all
-  comments: ["<!-- ", " -->"]
+  comments: []
   endings: all
   ignore:
     envs: [local]
   blanklines: false
-  profile: true
+  profile: false
   startings: [html, head, body]
