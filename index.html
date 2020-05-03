@@ -4,7 +4,6 @@ title: null
 ---
 
 <nav><ul><li><a href="/">Ook</a></li><li>Rahmawan</li></ul></nav>
-<header><h1>{{ site.name}}</h1></header>
 {% for post in site.posts limit:1 %}<article>
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d-%m-%Y" }}</time>
