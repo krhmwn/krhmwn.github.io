@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-
-<nav><ul><li><a href="/">Ook</a></li><li>Rahmawan</li></ul></nav>
-<header>{% if page.link %}<h1><a href="{{ page.link }}">{{page.title}}</a> &rarr;</h1>{% else %}<h1>{{page.title}}</h1>{% endif %}</header>
+<header><a href="/">{{ site.name }}</a><nav><ul><li><a href="mailto:ookrahmawan@mail.ru">Kontak</a></li></ul></nav></header>
+<article class="posttitle">{% if page.link %}<h1><a href="{{ page.link }}">{{page.title}}</a> &rarr;</h1>{% else %}<h1>{{page.title}}</h1>{% endif %}</article>
 <article class="post">
 <h3 class="hide">{{page.title}}</h3><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%d-%m-%Y"}}</time>
 {{content}}
