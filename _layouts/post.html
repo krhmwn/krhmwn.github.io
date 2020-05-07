@@ -8,4 +8,7 @@ layout: default
 {{content}}
 </article>
 <nav class="nextprev"><ul><li>{% if page.previous.url %}<a href="{{ page.previous.url }}" title="{{page.previous.title}}">&laquo; Sebelumnya</a>{% else %}<s>&laquo; Sebelumnya</s>{% endif %}</li><li>{% if page.next.url %}<a href="{{ page.next.url }}" title="{{page.next.title}}">Selanjutnya &raquo;</a>{% else %}<s>Selanjutnya &raquo;</s>{% endif %}</li></ul></nav>
-<footer><p>&copy;15-{{ site.time | date: "%y" }} <a href="/">{{ site.name }}</a></p><nav class="menu"><ul><li><a href="mailto:ookrahmawan@mail.ru">Kontak</a></li></ul></nav></footer>
+<footer><p>&copy;15-{{ site.time | date: "%y" }} <a href="/">{{ site.name }}</a></p><nav class="menu"><ul>
+<li><a href="mailto:ookrahmawan@mail.ru">Kontak</a></li>
+<li><a href="http://ook.web.id/sitemap.xml">RSS</a></li>
+</ul></nav></footer>
