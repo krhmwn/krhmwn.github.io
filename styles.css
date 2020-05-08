@@ -122,6 +122,11 @@ padding:0 .15em
 float:right
 }
 
+.description,time {
+opacity:.5;
+font-size:95%
+}
+
 header,footer {
 display:flex;
 flex-direction:row;
@@ -151,7 +156,8 @@ border-top:1px solid #DCDCDC
 }
 
 .posttitle {
-text-align:center
+text-align:center;
+padding:0 0 2em;
 }
 
 .post {
@@ -176,9 +182,6 @@ footer {
 border-top:1px solid #DCDCDC
 }
 
-.hide {
-display:none
-}
 
 @media all and (min-width: 48em) and (max-width: 62em) {
 body {
