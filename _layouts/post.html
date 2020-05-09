@@ -3,7 +3,7 @@ layout: default
 ---
 {% include header.html %}
 <article class="post">{% if page.link %}<h2 class="posttitle"><a href="{{ page.link }}">{{page.title}}</a> &rarr;</h2>{% else %}<h2 class="posttitle">{{page.title}}</h2>{% endif %}
-<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%d-%m-%Y"}}</time>
+{% include datetime.html %}
 {{content}}
 </article>
 {% include postnav.html %}
