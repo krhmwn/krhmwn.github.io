@@ -68,9 +68,9 @@ text-align:left;
 width:50em;
 margin:0 auto;
 padding:0 5em;
--webkit-animation:fadein 2s;
--moz-animation:fadein 2s;
-animation:fadein 2s
+-webkit-animation:fadein 1s;
+-moz-animation:fadein 1s;
+animation:fadein 1s
 }
 
 @-webkit-keyframes fadein {
@@ -136,8 +136,12 @@ justify-content:space-between
 
 header {
 padding:2.5em 0;
+}
+
+header,.post {
 border-bottom:1px solid#DCDCDC
 }
+
 footer {
 padding:1.75em 0;
 }
@@ -152,17 +156,14 @@ padding:2em 0
 width:calc(98%/2);
 display:inline-table;
 padding:1.75em 0;
-border-top:1px solid #DCDCDC
 }
 
 .posttitle {
-text-align:center;
 padding:0 0 2em;
 }
 
-.post {
+.post,.nextprev {
 width:80%;
-border-bottom:1px solid #DCDCDC
 }
 
 .post>p:nth-of-type(1):first-letter {
@@ -174,11 +175,11 @@ padding-right:.1em;
 font-weight:800
 }
 
-.nextprev {
+.posttitle,.nextprev {
 text-align:center
 }
 
-footer {
+footer,.archive {
 border-top:1px solid #DCDCDC
 }
 
