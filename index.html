@@ -13,6 +13,7 @@ title: null
 {% for post in site.posts offset:1 limit:100 %}
 <article class="archive">
 {% include titledate.html %}
+<p>{{ post.description }}</p>
 </article>
 {% endfor %}
 {% include footer.html %}
