@@ -168,12 +168,11 @@ width:80%;
 }
 
 .post>p:nth-of-type(1):first-letter {
-float:left;
-font-size:3.75em;
-line-height:80%;
-padding-top:.125em;
-padding-right:.1em;
-font-weight:800
+float: left;
+font-size: 3.25em;
+line-height: 100%;
+padding-right: .1em;
+font-weight: 800;
 }
 
 .posttitle,.nextprev {
@@ -235,8 +234,7 @@ width:100%
 
 .post>p:nth-of-type(1):first-letter {
 float:none;
-font-size:130%;
-padding-top:0;
+font-size:110%;
 padding-right:0;
 font-weight:normal
 }
