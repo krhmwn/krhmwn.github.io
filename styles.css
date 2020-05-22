@@ -156,7 +156,7 @@ padding:2em 0
 .archive {
 width:calc(98%/2);
 display:inline-table;
-padding:1.75em 0;
+padding:1.75em 1em 1.75em 0;
 }
 
 .posttitle {
