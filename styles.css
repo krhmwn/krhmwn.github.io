@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
-
 * {
   box-sizing: border-box;
 }
@@ -70,6 +68,12 @@ hr {
   background: #ddd;
   border: none;
 }
+
+time {
+  opacity:.5;
+  font-size: 90%;
+}
+
 
 blockquote {
   padding: 1em;
