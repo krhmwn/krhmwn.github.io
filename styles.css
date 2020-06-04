@@ -63,7 +63,7 @@ a:hover {
 
 hr {
   margin: 3em 0;
-  height: 2px;
+  height: 1px;
   background: #ddd;
   border: none;
 }
@@ -73,7 +73,7 @@ article {
 }
 
 time {
-  opacity:.5;
+  opacity:.75;
   font-size: 90%;
 }
 
