@@ -68,6 +68,10 @@ hr {
   border: none;
 }
 
+article {
+    margin: 3em 0;
+}
+
 time {
   opacity:.5;
   font-size: 90%;
