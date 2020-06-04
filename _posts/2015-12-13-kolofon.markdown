@@ -15,4 +15,4 @@ Untuk validasi standarisasi situs web bisa dicek di tautan berikut ini:
 1. [HTML](https://validator.w3.org/)
 2. [CSS3](https://jigsaw.w3.org/css-validator/)
 
-Pembaharuan: 21/03/2020
+Pembaharuan: 04/06/2020
