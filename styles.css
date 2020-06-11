@@ -176,15 +176,13 @@ padding-left:1em;
 margin-top:0
 }
 
-footer {
+header, footer {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-footer ul{
-  display: flex;
-  float: left;
+footer ol{
   margin: 0;
 }
