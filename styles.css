@@ -13,7 +13,7 @@ margin-bottom:0
 body {
 font:16px "Open Sans",sans-serif;
 background:#fff;
-color:#555;
+color:#333;
 padding:2rem 1.5rem;
 line-height:1.5
 }
@@ -48,7 +48,7 @@ font-size:2em
 }
 
 a {
-color:#69c;
+color:#3B94D9;
 text-decoration:none;
 overflow-wrap:break-word;
 word-wrap:break-word
