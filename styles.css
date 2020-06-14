@@ -180,13 +180,12 @@ margin-top:0
 }
 
 header, footer {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 20px;
 }
 header p{
-  display: flex;
+  
   }
 
 footer ol{
