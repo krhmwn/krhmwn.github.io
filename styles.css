@@ -24,9 +24,6 @@ padding:5rem 0;
 margin:0 auto;
 max-width:37rem
 }
-header p {
-  display: block;
-  }
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -179,15 +176,16 @@ padding-left:1em;
 margin-top:0
 }
 
-header, footer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-column-gap: 20px;
-}
-header p{
+footer {
+padding-bottom:6em
   
-  }
-
-footer ol{
+}
+footer ol {
+  width:25%;
+  float:right;
   margin: 0;
 }
+footer p{
+  width:70%;
+  float:left
+  }
