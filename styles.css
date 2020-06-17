@@ -183,11 +183,14 @@ padding:2.5em 0;
 border-bottom: 1px dashed #dcdcdc;
 }
 
+.archive {
+align-items: center;
+}
+
 .archive, footer {
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-align-items: center;
 }
 
 footer {
@@ -205,9 +208,8 @@ padding-left: 1.5em;
 margin: 0;
 }
 
-@media all and (min-width:37rem){
+@media all and (max-width:37rem){
 .archive {
 display: block;
-
 }
 }
