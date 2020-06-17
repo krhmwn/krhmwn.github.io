@@ -176,15 +176,13 @@ padding-left:1em;
 margin-top:0
 }
 
-footer {
+.archive, footer {
 display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
-  
+  align-items: center;
 }
 footer ol {
-display: flex;
   margin: 0;
 }
 
