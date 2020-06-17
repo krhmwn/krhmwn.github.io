@@ -179,12 +179,14 @@ margin-top:0
 }
 
 header {
-    margin-bottom: 3em;
+margin-bottom: 2em;
+padding-bottom: 3em;
+border-bottom: 1px dashed #dcdcdc;
 }
 
 nav{
-    padding:2.5em 0;
-    border-bottom: 1px dashed #dcdcdc;
+padding:2.5em 0;
+border-bottom: 1px dashed #dcdcdc;
 }
 
 .archive, footer {
@@ -193,6 +195,7 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 }
+
 footer {
 margin: 3em 0;
 }
@@ -202,6 +205,7 @@ display: flex;
 margin: 0;
 list-style: none;
 }
+
 footer li {
 padding-left: 1.5em;
 margin: 0;
