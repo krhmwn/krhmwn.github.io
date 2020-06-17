@@ -177,15 +177,14 @@ margin-top:0
 }
 
 footer {
-padding-bottom:6em
+display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   
 }
 footer ol {
-  width:25%;
-  float:right;
+display: flex;
   margin: 0;
 }
-footer p{
-  width:70%;
-  float:left
-  }
+
