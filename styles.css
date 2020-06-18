@@ -22,7 +22,7 @@ max-width:37rem
 
 h1,h2,h3,h4,h5,h6 {
 font-weight:400;
-margin-bottom: 0.25em;
+margin-bottom:.25em
 }
 
 h4 {
@@ -50,7 +50,7 @@ word-wrap:break-word
 
 a:hover {
 color:#4080bf;
-text-decoration:underline;
+text-decoration:underline
 }
 
 hr {
@@ -61,9 +61,9 @@ border:none
 }
 
 article {
-margin: 2em 0 0;
-padding-bottom: 2em;
-border-bottom: 1px dashed #dcdcdc;
+margin:2em 0 0;
+padding-bottom:2em;
+border-bottom:1px dashed #dcdcdc
 }
 
 time {
@@ -174,43 +174,52 @@ margin-top:0
 }
 
 header {
-margin-bottom: 2em;
-padding-bottom: 3em;
-border-bottom: 1px dashed #dcdcdc;
+margin-bottom:2em;
+padding-bottom:3em;
+border-bottom:1px dashed #dcdcdc
 }
 
-nav{
+nav {
 padding:2.5em 0;
-border-bottom: 1px dashed #dcdcdc;
+border-bottom:1px dashed #dcdcdc
 }
 
 .archive {
-align-items: center;
+align-items:center
 }
 
-.archive, footer {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+.archive,footer {
+display:flex;
+flex-direction:row;
+justify-content:space-between
 }
 
 footer {
-margin: 3em 0;
+margin:3em 0
 }
 
 footer ol {
-display: flex;
-margin: 0;
-list-style: none;
+display:flex;
+margin:0;
+list-style:none
 }
 
 footer li {
-padding-left: 1.25em;
-margin: 0;
+margin:0
 }
 
-@media all and (max-width:37rem){
+footer li:before {
+content:'.';
+padding:0 .5em;
+opacity:.75
+}
+
+footer li:first-child:before {
+content:''
+}
+
+@media all and (max-width:37rem) {
 .archive {
-display: block;
+display:block
 }
 }
