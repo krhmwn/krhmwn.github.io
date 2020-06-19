@@ -188,7 +188,7 @@ border-bottom:1px dashed #dcdcdc
 align-items:center
 }
 
-.archive,footer {
+header, .archive,footer {
 display:flex;
 flex-direction:row;
 justify-content:space-between
@@ -219,7 +219,7 @@ content:''
 }
 
 @media all and (max-width:37rem) {
-.archive {
+header, .archive {
 display:block
 }
 }
