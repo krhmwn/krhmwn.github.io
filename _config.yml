@@ -2,6 +2,7 @@ description: Blog pribadi Ook Rahmawan
 permalink: /:title
 title: Ook Rahmawan
 name: Ook Rahmawan
+logo: OR
 compress_html:
   clippings: all
   comments: []
