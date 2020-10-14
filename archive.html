@@ -1,0 +1,12 @@
+---
+layout: default
+title: null
+---
+
+{% include header.html %}
+{% for post in site.posts %}
+<article class="archive">
+{% include titledate.html %}
+</article>
+{% endfor %}
+{% include footer.html %}
