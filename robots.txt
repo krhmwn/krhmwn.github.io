@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: 
+Disallow: /greentown
+Disallow: /uwiechanshop
+Sitemap: http://ook.web.id/sitemap.xml
