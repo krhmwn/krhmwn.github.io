@@ -66,7 +66,7 @@ background:#ddd;
 border:none
 }
 
-article,archivelist {
+article,.archivelist {
 margin:1.5em 0 0;
 padding-bottom:1.5em;
 border-bottom:1px dashed #dcdcdc
@@ -196,7 +196,7 @@ border-bottom:1px dashed #dcdcdc
 align-items:center
 }
 
-header,.archive,archivelist,footer {
+header,.archive,.archivelist,footer {
 display:flex;
 flex-direction:row;
 justify-content:space-between
@@ -227,7 +227,7 @@ content:''
 }
 
 @media all and (max-width:37rem) {
-header,.archive,archivelist {
+header,.archive,.archivelist {
 display:block
 }
 h2, time {
