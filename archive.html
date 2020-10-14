@@ -4,6 +4,7 @@ title: null
 ---
 
 {% include header.html %}
+<article class="archive">
 {% capture current_year %}{{ site.posts.first.date | date: "%Y" }}{% endcapture %}
 {% assign last_post = site.posts.last %}
 <h2>
@@ -21,14 +22,9 @@ title: null
   {% assign current_year = post_year %}
   {% endif %}
   <li>
-    <a class="shh" href="{{ post.url }}">
-      <span class="entry__title">
-        {{ post.title }}
-      </span>
-      <span class="entry__meta">
-      </span>
-    </a><
+    <h3 class="posttitle"><a href="{{ post.url }}">{{ post.title }}</a></h3><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d-%m-%Y" }}</time>
   </li>
 {% endfor %}
 </ul>
+</article>
 {% include footer.html %}
