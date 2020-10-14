@@ -202,6 +202,10 @@ flex-direction:row;
 justify-content:space-between
 }
 
+.archivelist:last-child {
+border:0 none
+}
+
 footer {
 margin:3em 0
 }
