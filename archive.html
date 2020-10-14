@@ -3,14 +3,6 @@ layout: default
 title: null
 ---
 
-{% include header.html %}
-{% for post in site.posts %}
-<article class="archive">
-{% include titledatearchive.html %}
-</article>
-{% endfor %}
-{% include footer.html %}
-
 {% capture current_year %}{{ site.posts.first.date | date: "%Y" }}{% endcapture %}
 {% assign last_post = site.posts.last %}
 <h2 class="page__year">
