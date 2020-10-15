@@ -7,7 +7,7 @@ title: null
 {% for post in site.posts limit:1 %}
 <article>
 {% include titledate.html %}
-<p>{{ content }}</p>
+<p>{{content}}</p>
 </article>
 {% endfor %}
 {% for post in site.posts offset:1 limit:4 %}
