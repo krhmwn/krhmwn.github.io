@@ -1,4 +1,4 @@
-description: Blog pribadi Ook Rahmawan
+description: Blog pribadi Ook Rahmawan mengulas tentang kehidupan sehari-hari, jalan-jalan, wisata kuliner dan makan enak serta hal menarik lainnya.
 permalink: /:title
 title: Ook Rahmawan
 name: Ook Rahmawan
@@ -8,7 +8,7 @@ compress_html:
   comments: []
   endings: []
   ignore:
-    envs: [local]
+  envs: [local]
   blanklines: false
   profile: false
   startings: []
