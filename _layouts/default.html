@@ -17,6 +17,9 @@ layout: compress
 <link rel="shortcut icon" type="image/x-icon" href="{{ "/img/favicon.ico" | prepend: site.baseurl }}" />
 <meta name="theme-color" content="#3B94D9" />
 <!--[if lt IE 9]><script type="text/javascript" src="/html5.js"></script><![endif]-->
+{% if jekyll.environment == 'production' and site.google_analytics %}
+{% include analytics.html %}
+{% endif %}
 </head>
 <body>
 {{ content }}
