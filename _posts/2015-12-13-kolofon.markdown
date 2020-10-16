@@ -4,7 +4,6 @@ title: "Kolofon"
 date: 2015-12-13 23:00
 comments: false
 categories: post
-description: Kolofon Situs
 ---
 
 Kolofon, merupakan kata serapan dari bahasa Inggris yaitu *Colophon* yang pengertiannya bisa dilihat di [Wikipedia](https://id.wikipedia.org/wiki/Kolofon).
