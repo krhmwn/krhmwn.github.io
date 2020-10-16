@@ -7,6 +7,6 @@ categories: post
 link: https://goo.gl/maps/KAjbBViheXLUhkXE6
 ---
 
-Alhamdulillah diberi amanah oleh Alloh SWT berupa rumah, semoga menjadi barokah buat keluarga kami. Aaamiiin.
+Alhamdulillah pembangunan rumah sudah selesai & bisa kami tempati bersama keluarga, semoga menjadi barokah buat keluarga kami. Aaamiiin.
 
 ![Pindahan](/img/greentown3.0.jpg)
