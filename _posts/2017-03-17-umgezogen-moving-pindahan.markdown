@@ -5,7 +5,6 @@ date: 2017-03-17 10:00
 comments: false
 categories: post
 link: https://goo.gl/maps/KAjbBViheXLUhkXE6
-description: Alhamdulillah, semoga barokah. Aaamiiin.
 ---
 
 Alhamdulillah diberi amanah oleh Alloh SWT berupa rumah, semoga menjadi barokah buat keluarga kami. Aaamiiin.
