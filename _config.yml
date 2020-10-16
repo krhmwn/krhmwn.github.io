@@ -2,7 +2,7 @@ description: Blog pribadi Ook Rahmawan mengulas tentang kehidupan sehari-hari, j
 permalink: /:title
 title: Ook Rahmawan
 name: Ook Rahmawan
-logo: OR
+logo: Ook
 compress_html:
   clippings: all
   comments: []
