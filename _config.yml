@@ -3,6 +3,7 @@ permalink: /:title
 title: Ook Rahmawan
 name: Ook Rahmawan
 logo: Ook
+google_analytics: UA-180699504-1
 compress_html:
   clippings: all
   comments: []
