@@ -11,7 +11,7 @@ title: null
 </article>
 {% endfor %}
 {% for post in site.posts offset:1 limit:4 %}
-<article class="archive">
+<article>
 {% include titledate.html %}
 {{post.excerpt}}
 </article>
