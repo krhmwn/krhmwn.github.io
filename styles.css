@@ -37,7 +37,6 @@ header{margin-bottom:1.5em;padding-bottom:3em;border-bottom:1px dashed #dcdcdc}
 nav{padding:1.5em 0;border-bottom:1px dashed #dcdcdc}
 .share ul{display:flex;margin:0;list-style:none}
 .share li{margin:0;padding-right:1em}
-svg{fill:#333;height:24;viewBox:0 0 24 24;width:24}
 .archive{align-items:center}
 header,.archive,.archivelist,footer{display:flex;flex-direction:row;justify-content:space-between}
 .archivelist:last-child{border:0 none}
