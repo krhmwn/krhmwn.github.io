@@ -8,7 +8,7 @@ link: https://goo.gl/maps/KAjbBViheXLUhkXE6
 ---
 
 Alhamdulillah pembangunan rumah sudah selesai & bisa kami tempati bersama keluarga, semoga menjadi barokah buat keluarga kami. Aaamiiin.
-
+<!--more-->
 ![Peta](/img/greentown3.0.jpg)
 
 ![Rumah](/img/greentown3.1.jpg)
