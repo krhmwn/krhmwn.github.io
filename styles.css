@@ -14,6 +14,7 @@ a.active{font-weight:700}
 hr{margin:3em 0;height:1px;background:#ddd;border:none}
 article,.archivelist{display:flex;flex-direction:column;margin:1.5em 0 0;padding-bottom:1.5em;border-bottom:1px dashed #dcdcdc}
 time{opacity:.75;font-size:90%;width:20%}
+.left{text-align:right}
 blockquote{padding:1em;margin:1.75rem 0;background:#f2f2f2;color:#555}
 ul,ol{margin:1.75rem 0}
 li{margin:.5em 0}
