@@ -13,6 +13,6 @@ Seluruh kode blog ini saya unggah di github maka untuk mengoptimalkan gambar dan
 
 Untuk cara pemakaiannya cukup mudah Anda bisa mengikuti petunjuknya di laman [Imgbot](https://imgbot.net/) atau bisa mencarinya aplikasinya di *marketplace* github.
 Berikut ini adalah hasilnya:
-![imgbot](/img/imgbot.jpg)
+![imgbot](/img/imgbothasil.jpg)
 
 Selamat mencoba.
