@@ -11,7 +11,7 @@ title: Arsip
 <h2>{{ post_year }}</h2>
 {% assign current_year = post_year %}
 {% endif %}
-<span class="archivelist"><a href="{{ post.url }}">{{ post.title }}</a><time class=left datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d-%m-%Y" }}</time></span>
+<span class="archivelist"><a href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d-%m-%Y" }}</time></span>
 {% endfor %}
 </article>
 {% include footer.html %}
