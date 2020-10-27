@@ -6,8 +6,8 @@
   "name": {{ site.title | jsonify }},
   "headline": {{ site.title | jsonify }},
   "keywords": {{ site.tags | join: ',' | jsonify }},
-  "description": {{ site.excerpt | strip_html | strip | jsonify }},
-  "articleBody": {{ site.content | strip_html | jsonify }},
+  "description": {{ site.description | strip | jsonify }},
+  "articleBody": {{ content | strip_html | jsonify }},
   "datePublished": {{ site.date | jsonify }},
   "dateModified": {{ site.last_modified_at | default: page.date | jsonify }},
   "author": {
