@@ -7,7 +7,7 @@
   "headline": {{ site.title | jsonify }},
   "keywords": {{ site.tags | join: ',' | jsonify }},
   "description": {{ site.description | strip | jsonify }},
-  "articleBody": {{ content | strip_html | jsonify }},
+  "articleBody": {{ post.content | strip_html | jsonify }},
   "datePublished": {{ site.date | jsonify }},
   "dateModified": {{ site.last_modified_at | default: page.date | jsonify }},
   "author": {
