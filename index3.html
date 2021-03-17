@@ -1,0 +1,15 @@
+---
+layout: default
+title: null
+---
+
+{% include metadatahome.html %}
+{% include header2.html %}
+{% for post in site.posts limit:1 %}
+<article>
+</article>
+{% endfor %}
+<article class="archive">
+<h3 class="posttitle"><a href="/archive">Blog &raquo;</a></h3>
+</article>
+{% include footer.html %}
