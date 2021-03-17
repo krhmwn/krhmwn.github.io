@@ -3,8 +3,8 @@ layout: default
 ---
 
 {% include metadata.html %}
-{% include header.html %}
+{% include header2.html %}
 <article class="post">{% if page.link %}<h2 class="posttitle"><a href="{{ page.link }}">{{page.title}}</a> &rarr;</h2>{% else %}<h2 class="posttitle">{{page.title}}</h2>{% endif %}<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%d-%m-%Y"}}</time>{{content}}</article>
 {% include share.html %}
 {% include postnav.html %}
-{% include footer.html %}
+{% include footer2.html %}
