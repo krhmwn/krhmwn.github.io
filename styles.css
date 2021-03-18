@@ -43,7 +43,7 @@ header,.archive,.archivelist,footer{display:flex;flex-direction:row;justify-cont
 footer{margin:3em 0}
 footer ol{display:flex;margin:0;list-style:none}
 footer li{margin:0}
-footer li:before{content:'.';padding:0 .75em;opacity:.75}
+footer li:before{content:'.';padding:0 .5em;opacity:.75}
 footer li:first-child:before{content:''}
 @media all and (max-width:37rem) {
 header,.archive,.archivelist{display:block}
