@@ -3,5 +3,6 @@ Allow: /
 Disallow: 
 Disallow: /404
 Disallow: /greentown
+Disallow: /index2
 Disallow: /uwiechanshop
 Sitemap: http://ook.web.id/sitemap.xml
