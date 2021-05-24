@@ -38,6 +38,7 @@ nav{padding:1.5em 0;border-bottom:1px dashed #dcdcdc}
 .share ul{display:flex;margin:0;list-style:none}
 .share li{margin:0}
 .share li:before{content:'.';padding:0 .5em;opacity:.75}
+.share li:first-child:before{content:'';padding:0}
 .archive{align-items:center}
 header,.archive,.archivelist,footer{display:flex;flex-direction:row;justify-content:space-between;}
 .archivelist:last-child{border:0 none}
