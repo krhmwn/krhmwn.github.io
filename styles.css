@@ -35,9 +35,9 @@ dt{font-weight:600;margin-bottom:0}
 dd{padding-left:1em;margin-top:0}
 header{margin-bottom:1.5em;padding-bottom:3em;border-bottom:1px dashed #dcdcdc}
 nav{padding:1.5em 0;border-bottom:1px dashed #dcdcdc}
-.nextprev ul{display:flex;margin:0;list-style:none}
+.nextprev ul{display:flex;list-style:none;padding-inline-start:unset;}
 .nextprev li{margin:0}
-.share ul{display:flex;margin:0;list-style:none}
+.share ul{display:flex;list-style:none;padding-inline-start:unset;}
 .share li{margin:0}
 .share li:before{content:'.';padding:0 .5em;opacity:.75}
 .share li:first-child:before{content:'';padding:0}
