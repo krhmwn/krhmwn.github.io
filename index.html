@@ -8,17 +8,9 @@ title: null
 <article>
 <p>Saya seorang <s>pahlawan super</s> manusia biasa yang terlahir di Desa Jipang Kabupaten Brebes & saat ini tinggal di Jatiasih Kota Bekasi. Minat saya berkisar dari pengalaman kehidupan sehari-hari, jalan-jalan, wisata kuliner, makan enak serta hal menarik lainnya.{% include instagram.html username="ookrah" %}</p>
 </article>
-{% for post in site.posts limit:1 %}
-{% endfor %}
-{% for post in site.posts limit:1 %}
+{% for post in site.posts limit:3 %}
 <article>
-{% include titledate.html %}
-{{post.excerpt}}
-</article>
-{% endfor %}
-{% for post in site.posts offset:1 limit:4 %}
-<article class="card">
-{% include titledate.html %}
+<span class="archivelist"><a href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%d/%m" }}</time></span>
 </article>
 {% endfor %}
 {% include footer2.html %}
