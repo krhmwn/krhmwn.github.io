@@ -10,4 +10,15 @@ title: null
 </article>
 {% for post in site.posts limit:1 %}
 {% endfor %}
+{% for post in site.posts limit:1 %}
+<article>
+{% include titledate.html %}
+{{post.excerpt}}
+</article>
+{% endfor %}
+{% for post in site.posts offset:1 limit:4 %}
+<article>
+{% include titledate.html %}
+</article>
+{% endfor %}
 {% include footer2.html %}
